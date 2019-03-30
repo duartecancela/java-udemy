@@ -13,6 +13,7 @@ public class TiposPrimitivos {
         char c2 = '!';
         char c3 = '\u0050';
         System.out.printf("%c %c %c\n", c1, c2, c3);
+        System.out.println(c1 + 0);
 
         // Tipos primitivos inteiros
         byte b = 127;

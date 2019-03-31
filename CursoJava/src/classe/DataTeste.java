@@ -7,6 +7,8 @@ public class DataTeste {
         nascimento.mes = 11;
         nascimento.ano = 1987;
 
+        Data casamento = new Data(8, 9, 2010);
+        System.out.println(casamento.formatar());
         System.out.println(nascimento.formatar());
     }
 }
